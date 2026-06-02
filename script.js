@@ -1,12 +1,21 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 
-navToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
-});
+if (navToggle && navLinks) {
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('active');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
 
-document.querySelectorAll('.nav-links a').forEach((link) => {
-  link.addEventListener('click', () => navLinks.classList.remove('active'));
-});
+  document.querySelectorAll('.nav-links a').forEach((link) => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) {
+  year.textContent = new Date().getFullYear();
+}

@@ -1,35 +1,60 @@
 # Vaibhav Krishna Portfolio
 
-A static GitHub Pages-ready portfolio website for embedded systems, IoT, electronics, mechatronics, industrial automation, and product engineering roles.
+Clean GitHub Pages-ready portfolio for embedded systems, IoT, electronics, industrial sensing, software engineering, product design and technical projects.
 
-## Files
+## Included files
 
 - `index.html` - Main portfolio page
-- `styles.css` - Styling and responsive layout
+- `styles.css` - Responsive clean design
 - `script.js` - Mobile navigation and footer year
-- `assets/Vaibhav_Krishna_CV.pdf` - Downloadable CV used by the portfolio
+- `assets/Vaibhav_Krishna_CV.pdf` - Downloadable CV file
 
-## Contact details already added
+## Contact details used
 
 - Email: `vvkris97uk@gmail.com`
 - GitHub: `https://github.com/vvkris97om`
-- CV download link: `assets/Vaibhav_Krishna_CV.pdf`
+- CV link: `assets/Vaibhav_Krishna_CV.pdf`
 
-LinkedIn is intentionally left disabled because the final LinkedIn URL was not provided. To activate it, edit the LinkedIn `<a>` tag inside `index.html`.
+## Portfolio structure
+
+The site is arranged in this order:
+
+1. Hero/profile summary
+2. Skills listed separately
+3. Key software tools
+4. Years of experience
+5. Roles
+6. Projects
+7. Contact section
+8. IEEE paper
+9. Interests
 
 ## How to host on GitHub Pages
 
-1. Create a new GitHub repository, for example: `vaibhav-portfolio`.
-2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the full `assets` folder to the repository root.
+1. Create a new GitHub repository, for example `vaibhav-portfolio`.
+2. Upload these files and folders to the repository root:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+   - `README.md`
+   - `assets/`
 3. Go to **Settings** → **Pages**.
-4. Under **Build and deployment**, choose:
+4. Under **Build and deployment**, select:
    - Source: `Deploy from a branch`
    - Branch: `main`
    - Folder: `/root`
-5. Save.
-6. Your site will be available at:
-   `https://your-github-username.github.io/vaibhav-portfolio/`
+5. Save the settings.
 
-## To update the CV later
+Your site will be available at:
 
-Replace `assets/Vaibhav_Krishna_CV.pdf` with your latest CV using the same filename. The website link will continue to work without editing `index.html`.
+`https://vvkris97om.github.io/vaibhav-portfolio/`
+
+If the repository name is different, replace `vaibhav-portfolio` in the URL with your actual repository name.
+
+## Updating the CV later
+
+Replace `assets/Vaibhav_Krishna_CV.pdf` with a newer CV using the same filename. The download link will continue to work.
+
+## Updating LinkedIn later
+
+No LinkedIn URL has been added because no final LinkedIn profile URL was provided. Add it manually inside the contact section in `index.html` when required.
