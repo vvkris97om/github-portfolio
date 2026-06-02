@@ -1,60 +1,43 @@
 # Vaibhav Krishna Portfolio
 
-Clean GitHub Pages-ready portfolio for embedded systems, IoT, electronics, industrial sensing, software engineering, product design and technical projects.
+Clean GitHub Pages portfolio for Vaibhav Krishna.
 
-## Included files
+## Focus
 
-- `index.html` - Main portfolio page
-- `styles.css` - Responsive clean design
-- `script.js` - Mobile navigation and footer year
-- `assets/Vaibhav_Krishna_CV.pdf` - Downloadable CV file
+This version positions the portfolio around:
 
-## Contact details used
+- Electrical and electronics engineering
+- Automotive electronics and automotive electrical engineering
+- Embedded IoT hardware
+- PCB design and electronics layout
+- SolidWorks enclosure design
+- Sensor integration, testing and calibration
+- Industrial monitoring and control-panel related work
 
-- Email: `vvkris97uk@gmail.com`
-- GitHub: `https://github.com/vvkris97om`
-- CV link: `assets/Vaibhav_Krishna_CV.pdf`
+## Contact
 
-## Portfolio structure
+- Email: vvkris97uk@gmail.com
+- GitHub: https://github.com/vvkris97om
 
-The site is arranged in this order:
+## Files
 
-1. Hero/profile summary
-2. Skills listed separately
-3. Key software tools
-4. Years of experience
-5. Roles
-6. Projects
-7. Contact section
-8. IEEE paper
-9. Interests
+- `index.html` — main portfolio page
+- `styles.css` — styling
+- `script.js` — small navigation/year script
+- `assets/Vaibhav_Krishna_CV.pdf` — downloadable CV file
 
-## How to host on GitHub Pages
+## GitHub Pages Hosting
 
-1. Create a new GitHub repository, for example `vaibhav-portfolio`.
-2. Upload these files and folders to the repository root:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-   - `README.md`
-   - `assets/`
-3. Go to **Settings** → **Pages**.
-4. Under **Build and deployment**, select:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save the settings.
+1. Create a new GitHub repository, for example `portfolio`.
+2. Upload the contents of this folder to the repository root.
+3. Go to **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/root` folder.
+6. Save the settings.
+7. Your portfolio will be available at:
 
-Your site will be available at:
+```text
+https://vvkris97om.github.io/portfolio/
+```
 
-`https://vvkris97om.github.io/vaibhav-portfolio/`
-
-If the repository name is different, replace `vaibhav-portfolio` in the URL with your actual repository name.
-
-## Updating the CV later
-
-Replace `assets/Vaibhav_Krishna_CV.pdf` with a newer CV using the same filename. The download link will continue to work.
-
-## Updating LinkedIn later
-
-No LinkedIn URL has been added because no final LinkedIn profile URL was provided. Add it manually inside the contact section in `index.html` when required.
+If your repository has a different name, replace `portfolio` in the URL with that repository name.
