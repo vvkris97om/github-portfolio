@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vaibhav Krishna - Embedded Systems, IoT, Electronics, Mechatronics and Cloud-connected product development." />
+  <title>Vaibhav Krishna | Embedded Systems & IoT Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">VK</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Embedded Systems • IoT • Electronics • Mechatronics</p>
+          <h1>Vaibhav Krishna</h1>
+          <h2>Building cloud-connected hardware systems that turn real-world sensor data into operational insight.</h2>
+          <p class="hero-text">
+            Mechatronics and electronics-focused engineer with hands-on experience in ESP32-based IoT devices, industrial sensing, PCB design, enclosure design, telemetry systems, and cloud dashboards using ThingsBoard and MQTT.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="status-dot"></div>
+          <h3>Current Focus</h3>
+          <p>Industrial IoT, environmental monitoring, machine utilisation analytics, embedded firmware, sensor integration, and production-ready connected devices.</p>
+          <div class="metric-row">
+            <div><strong>IoT</strong><span>ESP32, LoRa, MQTT</span></div>
+            <div><strong>Cloud</strong><span>ThingsBoard, Azure</span></div>
+            <div><strong>Design</strong><span>PCB, Enclosures</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-light">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">About</p>
+          <h2>Engineer focused on practical, deployable technology.</h2>
+        </div>
+        <div>
+          <p>
+            I work across embedded firmware, electronics, sensor systems, industrial automation, cloud telemetry, and mechanical enclosure design. My projects typically involve converting physical measurements such as current, vibration, air quality, temperature, humidity, tilt, and flow into structured data that can be monitored, analysed, and acted on.
+          </p>
+          <p>
+            My background combines electronics, IoT development, software engineering, cyber security, and product-focused engineering. I enjoy building systems that are not only functional prototypes, but also robust enough for field trials, customer demonstrations, and scalable deployment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-label">Skills</p>
+        <h2>Technical capabilities</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Embedded & Firmware</h3>
+            <p>ESP32, ESP32-S3, STM32, Arduino IDE, I²C, SPI, UART, ADC, EEPROM, deep sleep, OTA, sensor calibration, low-power device logic.</p>
+          </article>
+          <article class="skill-card">
+            <h3>IoT & Cloud</h3>
+            <p>MQTT, ThingsBoard, telemetry pipelines, dashboards, RPC control, shared attributes, WiFi configuration portals, LoRa communication.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Electronics & Sensors</h3>
+            <p>Current sensors, vibration sensors, NTC thermistors, SHT31, MPU6050, ADXL345, SEN66, SPS30, ENS160, ADS1115, industrial 4–20 mA sensors.</p>
+          </article>
+          <article class="skill-card">
+            <h3>PCB & Product Design</h3>
+            <p>Multi-layer PCB design, wiring architecture, DIN rail systems, enclosure development, SolidWorks enclosure design, DFM improvements.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Software Development</h3>
+            <p>C, C++, Java, C#, Python, JavaScript, Angular, React, Spring Boot, ASP.NET, SQL, REST APIs, Docker, CI/CD.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Industrial Systems</h3>
+            <p>PLC concepts, industrial control panels, VFD systems, motor monitoring, machine utilisation, HACCP-related monitoring, electrical documentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-light">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Selected engineering work</h2>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-tag">Environmental IoT</div>
+            <h3>CLEAR Environmental Monitoring Platform</h3>
+            <p>
+              Developed a cloud-connected environmental intelligence platform for monitoring CO₂, particulate matter, VOC index, NOx index, temperature, humidity, and noise. The system uses embedded sensing hardware, MQTT telemetry, dashboards, alerts, and analytics to support indoor and industrial air quality decisions.
+            </p>
+            <ul>
+              <li>Integrated SEN66, SPS30, and INMP441 sensors with ESP32-S3 hardware.</li>
+              <li>Implemented telemetry, dashboard visualisation, and remote device interaction.</li>
+              <li>Supported hardware optimisation, enclosure refinement, and deployment readiness.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Machine Monitoring</div>
+            <h3>Current Sensor Utilisation System</h3>
+            <p>
+              Built an ESP32-based current monitoring system for tracking machine utilisation, threshold events, and runtime behaviour. The system supports ThingsBoard telemetry and two-way dashboard control through RPC and shared attributes.
+            </p>
+            <ul>
+              <li>RMS current measurement using EmonLib.</li>
+              <li>Remote threshold and sampling-rate configuration.</li>
+              <li>Designed for industrial asset usage tracking and operational insight.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Structural Monitoring</div>
+            <h3>StrucSense Concrete Monitoring Device</h3>
+            <p>
+              Developed a wireless structural monitoring system for concrete structures using environmental and tilt sensing. The device measures temperature, humidity, acceleration, pitch, roll, and battery voltage, then sends data through WiFi or LoRa.
+            </p>
+            <ul>
+              <li>MPU6050 tilt measurement with baseline correction.</li>
+              <li>SHT31 temperature and humidity monitoring.</li>
+              <li>Battery-powered operation with deep-sleep strategy.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Industrial Test Bench</div>
+            <h3>Motor, Vibration & Flow Monitoring Rig</h3>
+            <p>
+              Worked on a motor-driven pulley test setup for inducing faults and collecting operational data. The system included vibration monitoring, current measurement, flow sensing, temperature sensing, and cloud telemetry.
+            </p>
+            <ul>
+              <li>Integrated ADXL345 and industrial vibration sensors.</li>
+              <li>Worked with VFD-driven motor systems.</li>
+              <li>Used data collection for anomaly detection and AI training.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Mechanical Design</div>
+            <h3>SolidWorks Enclosure Design</h3>
+            <p>
+              Designed multiple enclosures for CLEAR and smaller connected-device projects, focusing on manufacturability, mounting, accessibility, cable routing, sensor exposure, and visual alignment with product identity.
+            </p>
+            <ul>
+              <li>Electronics enclosure layouts for sensor devices.</li>
+              <li>Design-for-assembly and design-for-manufacturing improvements.</li>
+              <li>Product-ready housing concepts for field deployments.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-label">Experience</p>
+        <h2>Professional direction</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">Current</span>
+            <div>
+              <h3>Embedded / IoT / Electronics Engineering</h3>
+              <p>Developing IoT hardware and firmware for industrial sensing, environmental monitoring, current monitoring, and connected analytics platforms.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Projects</span>
+            <div>
+              <h3>Product Development & Field Deployment</h3>
+              <p>Hands-on work across sensor selection, embedded coding, PCB and wiring design, enclosure development, cloud dashboards, test reports, calibration reports, and technical documentation.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Background</span>
+            <div>
+              <h3>Software, Cyber Security & Cloud</h3>
+              <p>Experience in full-stack development, cloud services, DevOps practices, cyber security fundamentals, and software engineering for connected systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="section-label">Contact</p>
+        <h2>Open to embedded, IoT, electronics, industrial automation, and product engineering roles.</h2>
+        <p>Use the placeholders below with your actual links before publishing.</p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noreferrer">Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Vaibhav Krishna. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
