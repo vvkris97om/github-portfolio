@@ -394,3 +394,10 @@ h3 {
     flex-direction: column;
   }
 }
+
+
+.disabled-link {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
